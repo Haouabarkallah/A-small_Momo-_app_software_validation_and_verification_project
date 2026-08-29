@@ -1,4 +1,4 @@
-# MoMo V&V Project
+# A Small MoMo Verification & Validation Project
 
 Small console application created for the Software Verification & Validation exam.
 
