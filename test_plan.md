@@ -1,23 +1,24 @@
 # Test Plan
 
 ## Objective
-Verify that the MoMo fee-payment module calculates fees correctly and refuses invalid or unauthorized payments.
+To verify that the MoMo payment feature correctly validates the payment amount, calculates the correct fee, validates the PIN, checks the balance and accepts or rejects the payment appropriately.
 
 ## Scope
-Amount validation, fee calculation, PIN validation, balance checking and payment processing.
+Amount validation, fee calculation, PIN validation, balance checking, Successful payment and Rejected payment
 
 ## Out of scope
-Real mobile-network communication, bank infrastructure and production authentication.
+Mobile network, Real banking infrastructure, Real SMS delivery and Production authentication
 
 ## Test levels
 - Unit testing
 - Integration testing
 
 ## Test techniques
+- Functional testing
+- Black-box testing
 - Equivalence Partitioning
 - Boundary Value Analysis
 - Negative testing
-- White-box branch coverage
 
 ## Entry criteria
 Application code and requirements are available.
