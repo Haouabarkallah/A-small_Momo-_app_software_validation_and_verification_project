@@ -85,3 +85,9 @@ def test_sufficient_balance():
 # Additional unit test — insufficient balance
 def test_insufficient_balance():
     assert check_balance(10_099, 10_000, 100) is False
+
+
+ # Additional function
+def test_negative_balance_is_rejected():
+    with pytest.raises(ValueError):
+        check_balance(-1, 10_000, 100)    
