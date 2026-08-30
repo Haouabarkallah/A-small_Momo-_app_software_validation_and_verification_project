@@ -2,7 +2,7 @@ from app.payment import process_payment
 
 
 def main():
-    print("=== MoMo Fee Payment ===")
+    print(" MoMo Fee Payment ")
 
     try:
         amount = int(input("Enter amount (FCFA): "))
