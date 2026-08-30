@@ -24,7 +24,12 @@ def calculate_fee(amount):
 
 
 def validate_pin(pin):
-    return isinstance(pin, str) and len(pin) == 4 and pin.isdigit()
+    return (
+        isinstance(pin, str)
+        and len(pin) == 4
+        and pin.isdigit()
+        and pin == CORRECT_PIN
+    )
 
 
 def check_balance(balance, amount, fee):
